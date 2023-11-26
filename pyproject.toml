@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "cube-reader"
+version = "0.1.0"
+description = "The ase-cube-extensions package enhances the capabilities of the ase.io.read_cube_data function by introducing additional functionalities."
+authors = ["Yavar <y.t.azar@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+ase = "^3.22.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
